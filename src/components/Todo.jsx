@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { useDispatch } from 'react-redux';
-import { add_data,get_api_data } from '../store/action.js';
+import { get_api_data } from '../store/action.js';
 import { TodoInput } from './TodoInput';
 import { TodoList } from './TodoList';
 export const Todo = () =>
